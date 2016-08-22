@@ -16,5 +16,5 @@
 5. `npm test` will run tests
 
 ## Available API calls
-- `POST /api/image` JSON format { link: 'link to image', caption: 'caption here'}
-- `GET /api/image`
+- `POST /api/images` JSON format {url: 'link to image', caption: 'caption here'}
+- `GET /api/images`
