@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "pretest": "npm run lint",
     "test": "mocha",
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "lint": "eslint **/*.js"
   },
   "repository": {
