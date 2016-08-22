@@ -1,0 +1,35 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "Backend API test for Code 401",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index.js",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeheber/backend-test.git"
+  },
+  "author": "Danielle Heberling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeheber/backend-test/issues"
+  },
+  "homepage": "https://github.com/deeheber/backend-test#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.3.1",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.5.9"
+  }
+}
