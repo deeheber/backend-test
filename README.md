@@ -16,5 +16,5 @@
 5. `npm test` will run tests - *warning:* tests will clear out the database
 
 ### Available API calls
-- `POST /api/images` JSON format {url: 'link to image', caption: 'caption here'}
+- `POST /api/images` Request body must be valid JSON. Example: {"url": "link to image", "caption": "caption here"}
 - `GET /api/images`
